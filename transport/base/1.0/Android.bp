@@ -18,7 +18,7 @@ hidl_interface {
 }
 
 cc_library_shared {
-    name: "android.hidl.base@1.0",
+    name: "android.hidl.base@1.0-full",
     generated_sources: ["android.hidl.base@1.0_genc++"],
     generated_headers: ["android.hidl.base@1.0_genc++_headers"],
     export_generated_headers: ["android.hidl.base@1.0_genc++_headers"],
